@@ -7,7 +7,7 @@ namespace tabuleiro
         public int Linhas { get; set; }
         public int Colunas { get; set; }
 
-        private Peca[ , ] Pecas;
+        private Peca[,] Pecas;
 
         public Tabuleiro(int linhas, int colunas)
         {
@@ -32,7 +32,7 @@ namespace tabuleiro
             return peca(pos) != null;
         }
 
-        public void ColocarPeca(Peca p, Posicao pos)
+        public void colocarPeca(Peca p, Posicao pos)
         {
             if (existePeca(pos))
             {
