@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using tabuleiro;
 
 namespace xadrez_console
@@ -13,6 +9,8 @@ namespace xadrez_console
         {
 
             Tabuleiro tab = new Tabuleiro(8, 8);
+
+            Tela.imprimirTabuleiro(tab);
 
             Console.ReadLine();
         }
