@@ -4,7 +4,6 @@ namespace tabuleiro
 {
     abstract class Peca
     {
-
         public Posicao Posicao { get; set; }
         public Cor Cor { get; protected set; }
         public int QteMovimentos { get; protected set; }
